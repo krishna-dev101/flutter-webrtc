@@ -128,8 +128,8 @@ public class AudioSwitchManager {
         preferredDeviceList = new ArrayList<>();
         preferredDeviceList.add(AudioDevice.BluetoothHeadset.class);
         preferredDeviceList.add(AudioDevice.WiredHeadset.class);
-        preferredDeviceList.add(AudioDevice.Speakerphone.class);
         preferredDeviceList.add(AudioDevice.Earpiece.class);
+        preferredDeviceList.add(AudioDevice.Speakerphone.class);
         initAudioSwitch();
     }
 
